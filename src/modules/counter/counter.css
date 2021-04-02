@@ -1,0 +1,19 @@
+.Wrapp {
+  margin: 0 auto;
+  width: 200px;
+  font-size: 20px;
+}
+
+.Count {
+  margin-bottom: 20px;
+}
+
+.Btn {
+  width: 50px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 6px;
+  outline:  none;
+  background-color: rgb(145, 220, 255);
+  font-size: 22px;
+}
