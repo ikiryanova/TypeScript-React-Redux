@@ -6,7 +6,7 @@ import { COUNT_INCREMENT, COUNT_DECREMENT } from './counter-constants';
 // }
 
 const INITIAL_STATE = {
-  count: 0
+  count: 0,
 }
 
 type InitialStateType = typeof INITIAL_STATE;
@@ -29,7 +29,7 @@ export const counterReducer = (state = INITIAL_STATE, action: ActionTypes): Init
       return countIncrement(state);
     case COUNT_DECREMENT:
       return countDecrement(state);
-      default: 
-        return state;
+    default: 
+      return state;
   }
 };

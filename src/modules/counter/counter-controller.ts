@@ -14,8 +14,9 @@ type MapDispatchPropsType = {
   countDecrement: () => void
 };
 
-export type PropsType = MapStatePropsType & MapDispatchPropsType;
 type OwnPropTypes = {};
+
+export type PropsType = MapStatePropsType & MapDispatchPropsType;
 
 const mapStateToProps = createStructuredSelector<AppStateType, MapStatePropsType>({
   count: getCount
